@@ -1,0 +1,46 @@
+(*
+T: FUNCTION_BLOCK FB_TON_Delay_FBD
+FW: NO
+CI#: 38
+QSL: 6
+QVE: 6
+QVPC: 6
+QPar: 5
+QFBI: 1
+*)
+@V 1 6 0
+Start	1	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 7 0
+In_Time	2	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 8 0
+Enable	3	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 13 0
+TON_1	4	VAR	@FB:42
+		     
+
+;
+
+@V 1 18 0
+Current_time	5	VAR_OUTPUT	@TYP:12
+		     
+
+;
+
+@V 1 19 0
+Q	6	VAR_OUTPUT	@TYP:1
+		     
+
+;
+

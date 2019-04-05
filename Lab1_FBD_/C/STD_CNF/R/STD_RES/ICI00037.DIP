@@ -1,0 +1,12 @@
+(*
+T: FUNCTION_BLOCK FB_TflipFlop_FBD
+FW: NO
+CI#: 37
+QSL: 4
+QVE: 4
+QVPC: 4
+QPar: 2
+QFBI: 2
+*)
+IN_xTrigger	@IV 1	@TYP:1	VAR_INPUT
+OUT_xSignal	@IV 4	@TYP:1	VAR_OUTPUT

@@ -1,0 +1,118 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 35
+QSL: 18
+QVE: 18
+QVPC: 18
+QPar: 0
+QFBI: 3
+*)
+@V 1 6 0
+ONBOARD_INPUT_BIT0	1	VAR_EXTERNAL	@TYP:1
+@RV 64		     
+
+;
+
+@V 1 7 0
+ONBOARD_INPUT_BIT1	2	VAR_EXTERNAL	@TYP:1
+@RV 65		     
+
+;
+
+@V 1 8 0
+ONBOARD_INPUT_BIT2	3	VAR_EXTERNAL	@TYP:1
+@RV 66		     
+
+;
+
+@V 1 9 0
+ONBOARD_INPUT_BIT3	4	VAR_EXTERNAL	@TYP:1
+@RV 67		     
+
+;
+
+@V 1 10 0
+Start	5	VAR_EXTERNAL	@TYP:1
+@RV 1		     
+
+;
+
+@V 1 11 0
+ONBOARD_OUTPUT_BIT0	6	VAR_EXTERNAL	@TYP:1
+@RV 72		     
+
+;
+
+@V 1 12 0
+ONBOARD_OUTPUT_BIT1	7	VAR_EXTERNAL	@TYP:1
+@RV 73		     
+
+;
+
+@V 1 13 0
+Enable_XOR	8	VAR_EXTERNAL	@TYP:1
+@RV 2		     
+
+;
+
+@V 1 14 0
+ONBOARD_INPUT_BIT7	9	VAR_EXTERNAL	@TYP:1
+@RV 71		     
+
+;
+
+@V 1 15 0
+ONBOARD_INPUT_BIT6	10	VAR_EXTERNAL	@TYP:1
+@RV 70		     
+
+;
+
+@V 1 16 0
+Status	11	VAR_EXTERNAL	@TYP:1
+@RV 3		     
+
+;
+
+@V 1 21 0
+FB_TON_Delay_FBD_1	12	VAR	@FB:38
+		     
+
+;
+
+@V 1 22 0
+Status_time	13	VAR	@TYP:12
+		     
+
+;
+
+@V 1 27 0
+ONBOARD_OUTPUT_BIT2	14	VAR_EXTERNAL	@TYP:1
+@RV 74		     
+
+;
+
+@V 1 32 0
+FB_TflipFlop_FBD_1	15	VAR	@FB:37
+		     
+
+;
+
+@V 1 33 0
+Signal_Satus	16	VAR	@TYP:1
+		     
+
+;
+
+@V 1 34 0
+FB_ClockCascade_FBD_1	17	VAR	@FB:39
+		     
+
+;
+
+@V 1 39 0
+ONBOARD_OUTPUT_BIT3	18	VAR_EXTERNAL	@TYP:1
+@RV 75		     
+
+;
+

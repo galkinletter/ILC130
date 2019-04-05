@@ -1,0 +1,52 @@
+(*
+T: FUNCTION_BLOCK FB_ClockCascade_FBD
+FW: NO
+CI#: 39
+QSL: 7
+QVE: 7
+QVPC: 7
+QPar: 4
+QFBI: 3
+*)
+@V 1 6 0
+In_tOn	1	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 7 0
+In_tOff	2	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 8 0
+IN_xEnable	3	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 16 0
+Out_xSignal	4	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 24 0
+TON_1	5	VAR	@FB:42
+		     
+
+;
+
+@V 1 25 0
+TON_Off	6	VAR	@FB:42
+		     
+
+;
+
+@V 1 26 0
+TON_ON	7	VAR	@FB:42
+		     
+
+;
+
